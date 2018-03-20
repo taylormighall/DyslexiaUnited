@@ -2,9 +2,9 @@ var words = [ "program", "application", "keyboard", "javascript", "gaming", "net
 
 showWord = function() { var word = getRandomWord();
 
-console.log(word);
+    console.log(word);
 
-document.getElementById("word").textContent = word;}
+    document.getElementById("word").textContent = word;}
 
 var getRandomWord = function () {
     return words[Math.floor(Math.random() * words.length)];
@@ -14,8 +14,8 @@ var input = document.querySelector('#clear');
 var textarea = document.querySelector('#answer');
 
 input.addEventListener('click', function () {
-textarea.value = '';
-}, false);
+    textarea.value = '';
+    }, false);
 
 checkAnswer = function() {
 
