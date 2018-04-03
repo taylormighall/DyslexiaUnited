@@ -17,10 +17,12 @@ function checkAnswer1(){
 
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege" || answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
-  document.getElementById("answercorrect").textContent = "Good job, here's another.";
+  document.getElementById("answercorrect").textContent = "Good job, here's another";
+  document.getElementById("answercorrect").style.color = "green";
   } else {
 
-     document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
+     document.getElementById("answercorrect").textContent = "Incorrect, please try again";
+     document.getElementById("answercorrect").style.color = "red";
   }
 };
 
@@ -28,9 +30,11 @@ function checkAnswer2(){
   var answer = document.getElementById("button2").textContent.toString();
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
-  document.getElementById("answercorrect").textContent = "Good job, here's another.";
+  document.getElementById("answercorrect").textContent = "Good job, here's another";
+  document.getElementById("answercorrect").style.color = "green";
   } else {
- document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
+ document.getElementById("answercorrect").textContent = "Incorrect, please try again";
+ document.getElementById("answercorrect").style.color = "red";
 
   }
 };
@@ -39,9 +43,11 @@ function checkAnswer3(){
   var answer = document.getElementById("button3").textContent.toString();
   if (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
-  document.getElementById("answercorrect").textContent = "Good job, here's another.";
+  document.getElementById("answercorrect").textContent = "Good job, here's another";
+  document.getElementById("answercorrect").style.color = "green";
   } else {
- document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
+ document.getElementById("answercorrect").textContent = "Incorrect, please try again";
+ document.getElementById("answercorrect").style.color = "red";
 
   }
 };
@@ -50,9 +56,11 @@ function checkAnswer4(){
   var answer = document.getElementById("button4").textContent.toString();
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") {
   getRandomSpellings();
-  document.getElementById("answercorrect").textContent = "Good job, here's another.";
+  document.getElementById("answercorrect").textContent = "Good job, here's another";
+  document.getElementById("answercorrect").style.color = "green";
   } else {
- document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
+ document.getElementById("answercorrect").textContent = "Incorrect, please try again";
+ document.getElementById("answercorrect").style.color = "red";
 
   }
 };
