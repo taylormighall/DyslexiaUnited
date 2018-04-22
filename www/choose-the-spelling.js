@@ -18,11 +18,11 @@ function checkAnswer1(){
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege" || answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
   document.getElementById("answercorrect").textContent = "Good job, here's another";
-  document.getElementById("answercorrect").style.color = "green";
+  document.getElementById("answercorrect").style.color = "#7FBD32";
   } else {
 
      document.getElementById("answercorrect").textContent = "Incorrect, please try again";
-     document.getElementById("answercorrect").style.color = "red";
+     document.getElementById("answercorrect").style.color = "#DD4132";
   }
 };
 
@@ -31,10 +31,10 @@ function checkAnswer2(){
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
   document.getElementById("answercorrect").textContent = "Good job, here's another";
-  document.getElementById("answercorrect").style.color = "green";
+  document.getElementById("answercorrect").style.color = "#7FBD32";
   } else {
  document.getElementById("answercorrect").textContent = "Incorrect, please try again";
- document.getElementById("answercorrect").style.color = "red";
+ document.getElementById("answercorrect").style.color = "#DD4132";
 
   }
 };
@@ -44,10 +44,10 @@ function checkAnswer3(){
   if (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") { document.getElementById("answercorrect").textContent = "Incorrect, please try again.";
   getRandomSpellings();
   document.getElementById("answercorrect").textContent = "Good job, here's another";
-  document.getElementById("answercorrect").style.color = "green";
+  document.getElementById("answercorrect").style.color = "#7FBD32";
   } else {
  document.getElementById("answercorrect").textContent = "Incorrect, please try again";
- document.getElementById("answercorrect").style.color = "red";
+ document.getElementById("answercorrect").style.color = "#DD4132";
 
   }
 };
@@ -57,10 +57,10 @@ function checkAnswer4(){
   if  (answer == "achieve" || answer == "business" || answer == "successful"|| answer == "beautiful"||answer == "believe"|| answer == "siege"|| answer == "cycling" || answer == "remember" || answer == "tomorrow" || answer == "dyslexia") {
   getRandomSpellings();
   document.getElementById("answercorrect").textContent = "Good job, here's another";
-  document.getElementById("answercorrect").style.color = "green";
+  document.getElementById("answercorrect").style.color = "#7FBD32";
   } else {
  document.getElementById("answercorrect").textContent = "Incorrect, please try again";
- document.getElementById("answercorrect").style.color = "red";
+ document.getElementById("answercorrect").style.color = "#DD4132";
 
   }
 };

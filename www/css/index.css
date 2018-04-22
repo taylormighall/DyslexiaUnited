@@ -28,7 +28,7 @@ html { touch-action:auto;
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #FFBC57;
     overflow: hidden;
 
 }
@@ -43,7 +43,7 @@ body {
 
 .Splash {
 
-color: blueviolet;
+color: white;
 position: relative;
 font-size: 4.5em;
 font-family: 'Vollkorn', serif;
@@ -64,8 +64,8 @@ padding-top: 1em;
 
 .RandS {
 
-  color: blueviolet;
-  font-size: 3em;
+  color: white;
+  font-size: 2.5em;
   text-align: center;
   font-family: 'Vollkorn', serif;
 
@@ -73,9 +73,9 @@ padding-top: 1em;
 }
 #word{
 
-  font-size: 3em;
+  font-size: 2em;
   font-family: "Comic Sans MS", sans-serif;
-  color: blue;
+  color: black;
 }
 .RandSAnswer{
 
@@ -100,10 +100,10 @@ textarea {
   width: 9em;
   margin-top: 0.5em;
   margin-bottom: 2em;
-  color: blueviolet;
-  background-color: lightgrey;
+  color: white;
+  background-color: #FFBC57;
   border: solid;
-  border-color: blueviolet;
+  border-color: white;
   padding: 0.8em;
   font-family: 'Vollkorn', serif;
   font-size: 1em;
@@ -117,18 +117,18 @@ textarea {
 margin-top: 1.5em;
 font-size: 0.75em;
 margin-bottom: 1.5em;
-color: blueviolet;
-background-color: lightgrey;
+color: white;
+background-color: #FFBC57;
 border: solid;
-border-color: blueviolet;
+border-color: white;
 padding: 1em;
 font-family: 'Vollkorn', serif; }
 
 #answercorrect{
 
     font-family: 'Vollkorn', serif;
-    color: lightgrey;
-    margin-bottom: 1em;
+    color: #FFBC57;
+    margin-bottom: 0em;
     font-size: 1.1em;
 }
 #menu{
@@ -136,12 +136,13 @@ font-family: 'Vollkorn', serif; }
 
   font-size: 0.75em;
   margin-bottom: 1em;
-  color: blueviolet;
-  background-color: lightgrey;
+  color: white;
+  background-color: #FFBC57;
   border: solid;
-  border-color: blueviolet;
+  border-color: white;
   padding: 1em;
   font-family: 'Vollkorn', serif;
+
 
 }
 

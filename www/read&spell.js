@@ -22,12 +22,12 @@ checkAnswer = function() {
   var answer = document.getElementById('answer').value.toString().trim().toLowerCase();
   var word = document.getElementById("word").textContent.toString().trim().toLowerCase();
   if (answer != word) { document.getElementById("answercorrect").textContent = "Incorrect, please try again";
-  document.getElementById("answercorrect").style.color = "red";
+  document.getElementById("answercorrect").style.color = "#DD4132";
 
   } else {
     showWord();
     document.getElementById("answercorrect").textContent = "Good job, here's another";
-document.getElementById("answercorrect").style.color = "green";
+document.getElementById("answercorrect").style.color = "#7FBD32";
 
   }
  };
