@@ -35,20 +35,20 @@
 
 </head >
 
-<body onload="getRandomSpellings()" >
+<body onload="getRandomSpellings()" > <!-- When the page loads the getRandomSpellings() function is called, which generetes the words inside the buttons below -->
 
     <div class="app" >
         <h1 class='RandS'>Choose The Spelling</h1>
 
-        <div class="buttons" >
-          <button class="Cts-button" id="button1" onclick="checkAnswer1()">
-          <button class="Cts-button" id="button2" onclick="checkAnswer2()">
+        <div class="buttons" > <!-- Below are the buttons that make up this game. They are each given a spelling of the same word, only one correct -->
+          <button class="Cts-button" id="button1" onclick="checkAnswer1()"> <!-- When a button is clicked the corresponding checkAnswer function is called, -->
+          <button class="Cts-button" id="button2" onclick="checkAnswer2()"> <!--  checking if the answer is correct -->
           <button class="Cts-button" id="button3" onclick="checkAnswer3()">
           <button class="Cts-button" id="button4" onclick="checkAnswer4()">
 
         </div>
 
-        <div id="answercorrect">Spell the word!</div>
+        <div id="answercorrect">Spell the word!</div> <!-- This changes depending on whether the answer selected is correct -->
 
         <div class='RandSAnswer'>
         <a href="menu.html"><button id="menu">Return to Menu</button></a>
