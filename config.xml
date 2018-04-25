@@ -8,8 +8,10 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+    <preference name="apiKey" value="yourApiKeyHere" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="apiKey" value="developerdemokeydeveloperdemokey" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
@@ -30,6 +32,7 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-speechrecognition" source="npm" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
@@ -114,4 +117,9 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-speechrecognition" spec="https://github.com/pbakondy/cordova-plugin-speechrecognition" />
+    <plugin name="phonegap-plugin-speech-recognition" spec="https://github.com/macdonst/SpeechRecognitionPlugin">
+        <variable name="MICROPHONE_USAGE_DESCRIPTION" value="your usage message" />
+        <variable name="SPEECH_RECOGNITION_USAGE_DESCRIPTION" value=" " />
+    </plugin>
 </widget>
