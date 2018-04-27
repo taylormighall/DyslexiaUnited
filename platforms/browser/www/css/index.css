@@ -37,8 +37,6 @@ body {
 .app {
     position: relative;
     text-align: center;
-
-
 }
 
 .Splash {
@@ -49,6 +47,12 @@ font-size: 4.5em;
 font-family: 'Vollkorn', serif;
 padding-top: 1em;
 
+}
+
+.menu {
+font-size: 1.2em;
+font-family: 'Vollkorn', serif;
+color: white;
 
 }
 
@@ -71,44 +75,53 @@ padding-top: 1em;
 
 
 }
-#word{
 
+#word{
   font-size: 2em;
   font-family: "Comic Sans MS", sans-serif;
   color: black;
 }
+
+#p{
+  font-size: 0.5em;
+  font-family: "Comic Sans MS", sans-serif;
+  color: white;
+
+}
+
 .RandSAnswer{
 
-  font-size: 1.7em;
-  padding: 1em;
+font-size: 1.7em;
+padding: 1em;
 
 }
 
 textarea {
-    resize: none;
-    font-size: 1em;
-    width: 8em;
-    text-align: center;
-    font-family: 'Vollkorn', serif;
+
+resize: none;
+font-size: 1em;
+width: 8em;
+text-align: center;
+font-family: 'Vollkorn', serif;
 
 }
 
 .Cts-button{
 
-  display: block;
-  margin: auto;
-  width: 9em;
-  margin-top: 0.5em;
-  margin-bottom: 2em;
-  color: white;
-  background-color: #FFBC57;
-  border: solid;
-  border-color: white;
-  padding: 0.8em;
-  font-family: 'Vollkorn', serif;
-  font-size: 1em;
-  font-weight: bold;
-  align-items: center;
+display: block;
+margin: auto;
+width: 9em;
+margin-top: 0.5em;
+margin-bottom: 2em;
+color: white;
+background-color: #FFBC57;
+border: solid;
+border-color: white;
+padding: 0.8em;
+font-family: 'Vollkorn', serif;
+font-size: 1em;
+font-weight: bold;
+align-items: center;
 
 }
 
@@ -122,17 +135,28 @@ background-color: #FFBC57;
 border: solid;
 border-color: white;
 padding: 1em;
-font-family: 'Vollkorn', serif; }
+font-family: 'Vollkorn', serif;
+
+}
 
 #answercorrect{
 
-    font-family: 'Vollkorn', serif;
-    color: #FFBC57;
-    margin-bottom: 0em;
-    font-size: 1.1em;
+font-family: 'Vollkorn', serif;
+color: #FFBC57;
+margin-bottom: 0em;
+font-size: 1.1em;
+
+}
+
+#answercorrectpp{
+
+font-family: 'Vollkorn', serif;
+color: #FFBC57;
+margin-bottom: 0em;
+font-size: 0.8em;
+
 }
 #menu{
-
 
   font-size: 0.75em;
   margin-bottom: 1em;
@@ -142,10 +166,21 @@ font-family: 'Vollkorn', serif; }
   border-color: white;
   padding: 1em;
   font-family: 'Vollkorn', serif;
+  align-items: center;
+}
+#menupp{
 
+  font-size: 0.75em;
+  margin-bottom: 1em;
+  color: white;
+  background-color: #FFBC57;
+  border: solid;
+  border-color: white;
+  padding: 0.3em;
+  font-family: 'Vollkorn', serif;
+  align-items: center;
 
 }
-
 
 
 @-webkit-keyframes rotation {
@@ -166,8 +201,6 @@ font-family: 'Vollkorn', serif; }
                                       /* offset horizontal: half of image width and text area width */
     }
 }
-
-
 
 .event {
     border-radius:4px;
